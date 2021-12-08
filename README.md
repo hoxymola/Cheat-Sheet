@@ -378,7 +378,7 @@ const int mod = 1e9 + 7;
 - 시간이 아슬아슬하다면 최적화를 더 할 수 없는가?
 
 ### 안 떠오를 때
-- do smth instead of nothing and stay organized
+- do something instead of nothing and stay organized
 - WRITE STUFF DOWN
 - DON'T GET STUCK ON ONE APPROACH
 - 비슷한 문제를 풀어본 적이 있는가?
