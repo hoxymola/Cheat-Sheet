@@ -85,7 +85,19 @@ __builtin_clz(n)
 __builtin_ctz(n)
 ```
 
-![](https://i.imgur.com/MfeNzFP.png)
+### 패리티 (parity)
+
+```
+__builtin_parity(n) // 0 or 1
+```
+
+```
+int n = 100;  //00000000 00000000 00000000 01100100
+cout << __builtin_popcount(n) << "\n";  //3
+cout << __builtin_clz(n) << "\n";       //24
+cout << __builtin_ctz(n) << "\n";       //2
+cout << __builtin_parity(n) << "\n";    //1
+```
 
 ---
 
