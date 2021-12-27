@@ -272,7 +272,7 @@ for (int i = 2; i < sqrt(Max); i++) {
 ### 조합 전처리
 
 ```
-int Max 1000;
+int Max = 1000;
 int COM[Max][Max];
 int com(int n, int r) {
     if (COM[n][r]) {
