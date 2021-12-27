@@ -275,6 +275,9 @@ for (int i = 2; i < sqrt(Max); i++) {
 int Max = 1000;
 int COM[Max][Max];
 int com(int n, int r) {
+    if (n < r) {
+        return 0;
+    }
     if (COM[n][r]) {
         return COM[n][r];
     }
