@@ -79,7 +79,7 @@ __builtin_popcountll(n)
 __builtin_clz(n)
 ```
 
-### 처음 1이 등장하기 전 뒤의 0의 개수 (count trailing zero)
+### 처음 1이 등장하기 전 뒤의 0의 개수 (count tailing zero)
 
 ```
 __builtin_ctz(n)
